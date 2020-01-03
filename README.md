@@ -1,3 +1,7 @@
 # riscv-notes
 - Notes about RISC-V ISA, decompiling, docs/datasheets.
 - Exploration of an homemade processor as well.
+
+# Board #1 - Maixduino
+- https://wiki.sipeed.com/en/maix/board/maixduino.html
+- https://www.seeedstudio.com/Sipeed-Maixduino-Kit-for-RISC-V-AI-IoT-p-4047.html
