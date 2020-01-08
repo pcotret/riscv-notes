@@ -6,6 +6,8 @@
 - https://wiki.sipeed.com/en/maix/board/maixduino.html
 - https://maixduino.sipeed.com/en/
 - https://www.seeedstudio.com/Sipeed-Maixduino-Kit-for-RISC-V-AI-IoT-p-4047.html
+- Examples with PlatformIO : https://github.com/sipeed/platform-kendryte210
+(Arduino IDE judt works fine !)
 
 ## Attacks on RISC-V
 - https://github.com/chrysh/riscv_exploitation
