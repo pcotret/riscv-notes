@@ -6,8 +6,12 @@
 - https://wiki.sipeed.com/en/maix/board/maixduino.html
 - https://maixduino.sipeed.com/en/
 - https://www.seeedstudio.com/Sipeed-Maixduino-Kit-for-RISC-V-AI-IoT-p-4047.html
-- Examples with PlatformIO : https://github.com/sipeed/platform-kendryte210
-(Arduino IDE judt works fine !)
+### Toolchain
+- Kendryte compiler: https://github.com/kendryte/kendryte-gnu-toolchain
+- Kendryte standalone SDK: https://github.com/kendryte/kendryte-standalone-sdk
+### Examples
+- PlatformIO : https://github.com/sipeed/platform-kendryte210 (Arduino IDE just works fine !)
+- Demos for the crypto core, AI chip, etc: https://github.com/kendryte/kendryte-standalone-demo
 
 ## Attacks on RISC-V
 - https://github.com/chrysh/riscv_exploitation
