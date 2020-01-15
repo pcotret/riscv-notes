@@ -1,4 +1,4 @@
-# "Hzllo world" example for a K210-based board such as the Maixduino from Sipeed
+# "Hello world" example for a K210-based board such as the Maixduino from Sipeed
 ## Installation
 - Visual Studio Code: https://code.visualstudio.com/
 - PlatformIO plugin: https://marketplace.visualstudio.com/items?itemName=platformio.platformio-ide
