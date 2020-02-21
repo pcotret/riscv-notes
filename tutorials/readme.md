@@ -1,0 +1,2 @@
+- [Default setup](./maixduino_bare)
+- [Coding with the PlatformIO VS code plugin](./maixduino_platformio)
