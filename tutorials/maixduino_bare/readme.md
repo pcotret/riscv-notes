@@ -55,3 +55,7 @@ Follow the instructions at: https://github.com/kendryte/kendryte-gnu-toolchain (
 # 3. Install the Kendryte standalone SDK
 
 Follow the instructions at: https://github.com/kendryte/kendryte-standalone-sdk (you may have to change the path to the cross-compiler built in the previous step).
+
+The standalone SDK does contain an `hello_world` :wink:
+
+[![demo](https://asciinema.org/a/Ne6IgzY1UxFrlicLZxbTpwDQf.svg)](https://asciinema.org/a/Ne6IgzY1UxFrlicLZxbTpwDQf?autoplay=1)
