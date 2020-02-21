@@ -50,4 +50,8 @@ Programming BIN: |==============================================================
 
 # 2. Install the Kendryte toolchain
 
-Follow the instruction at: https://github.com/kendryte/kendryte-gnu-toolchain (especially the target directory for the cross-compiler `/opt/kendryte-toolchain`).
+Follow the instructions at: https://github.com/kendryte/kendryte-gnu-toolchain (especially the target directory for the cross-compiler `/opt/kendryte-toolchain`).
+
+# 3. Install the Kendryte standalone SDK
+
+Follow the instructions at: https://github.com/kendryte/kendryte-standalone-sdk (you may have to change the path to the cross-compiler built in the previous step).
