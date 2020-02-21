@@ -48,3 +48,6 @@ Programming BIN: |==============================================================
 [INFO] Rebooting... 
 ```
 
+# 2. Install the Kendryte toolchain
+
+Follow the instruction at: https://github.com/kendryte/kendryte-gnu-toolchain (especially the target directory for the cross-compiler `/opt/kendryte-toolchain`).
