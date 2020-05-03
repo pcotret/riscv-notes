@@ -1,0 +1,9 @@
+[submodule "docs/riscv-asm-manual"]
+	path = docs/riscv-asm-manual
+	url = https://github.com/riscv/riscv-asm-manual
+[submodule "docs/riscv-isa-manual"]
+	path = docs/riscv-isa-manual
+	url = https://github.com/riscv/riscv-isa-manual
+[submodule "docs/risc-v-getting-started-guide"]
+	path = docs/risc-v-getting-started-guide
+	url = https://github.com/riscv/risc-v-getting-started-guide

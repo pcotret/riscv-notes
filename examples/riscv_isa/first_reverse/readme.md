@@ -26,14 +26,14 @@ Assembly code:
    10148:	1101                	addi	sp,sp,-32
    1014a:	ce22                	sw	s0,28(sp)
    1014c:	1000                	addi	s0,sp,32
-   1014e:	fe042623          	sw	zero,-20(s0)
-   10152:	fe042423          	sw	zero,-24(s0)
-   10156:	fec42783          	lw	a5,-20(s0)
-   1015a:	0785                	addi	a5,a5,1  
-   1015c:	fef42623          	sw	a5,-20(s0)
-   10160:	fe842783          	lw	a5,-24(s0)
-   10164:	17f9                	addi	a5,a5,-2  
-   10166:	fef42423          	sw	a5,-24(s0)
+   1014e:	fe042623          	sw	zero,-20(s0)     # Write 0 in s0-20 (initialize variable a)
+   10152:	fe042423          	sw	zero,-24(s0)     # Write 0 in s0-24 (initialize variable b)
+   10156:	fec42783          	lw	a5,-20(s0)       # a5 = 0
+   1015a:	0785                	addi	a5,a5,1  # a5 = a5 + 1
+   1015c:	fef42623          	sw	a5,-20(s0)       # Write a5 in s0-20 (result for variable a)  
+   10160:	fe842783          	lw	a5,-24(s0)       # a5 = 0
+   10164:	17f9                	addi	a5,a5,-2 # a5 = a5 - 2
+   10166:	fef42423          	sw	a5,-24(s0)       # Write a5 in s0-24 (result for variable b) 
    1016a:	4781                	li	a5,0
    1016c:	853e                	mv	a0,a5
    1016e:	4472                	lw	s0,28(sp)
