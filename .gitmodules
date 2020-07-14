@@ -7,3 +7,7 @@
 [submodule "docs/risc-v-getting-started-guide"]
 	path = docs/risc-v-getting-started-guide
 	url = https://github.com/riscv/risc-v-getting-started-guide
+[submodule "docs/educational-materials"]
+	path = docs/educational-materials
+	url = https://github.com/pcotret/educational-materials
+
