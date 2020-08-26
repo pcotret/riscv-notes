@@ -1,5 +1,3 @@
-> Cloned from: https://rv8.io/isa.html
-
 ## RISC-V Instruction Set Reference
 
 This document contains a brief listing of instructions and pseudocode for the RISC-V “I” *(Integer)* and “M” *(Multiply-Divide)* extensions. The [RISC-V Assembler Reference](https://rv8.io/asm) contains information on programming in assembly language for RISC-V. For detailed information on the instruction set refer to the [RISC-V ISA Specification](http://riscv.org/specifications/).
