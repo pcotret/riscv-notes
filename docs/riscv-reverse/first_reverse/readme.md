@@ -33,7 +33,7 @@ Assembly code:
    1015e:	4781                	li	a5,0			# Load 0 in a5
    10160:	853e                	mv	a0,a5			# Move a5 in a0 (hardwired zero)
    10162:	4472                	lw	s0,28(sp)		# Load [sp+28] in s0
-   10164:	6105                	addi	sp,sp,32	# De-allocate space. sps=sp+32
+   10164:	6105                	addi	sp,sp,32	# De-allocate space. sp=sp+32
    10166:	8082                	ret
 ```
 
