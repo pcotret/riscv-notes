@@ -1,1 +1,0 @@
-https://riscv.org/educational-materials/
