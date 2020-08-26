@@ -1,4 +1,4 @@
-# First reverse
+# Reversing an addition
 
 Main code:
 
