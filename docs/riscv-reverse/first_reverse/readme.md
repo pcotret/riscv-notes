@@ -31,7 +31,7 @@ Assembly code:
    10158:	0785                	addi	a5,a5,1		# a5=a5+1 (a=a+1)
    1015a:	fef42623          	sw	a5,-20(s0)			# Store a5 in [s0-20]
    1015e:	4781                	li	a5,0			# Load 0 in a5
-   10160:	853e                	mv	a0,a5			# Move a5 in a0 (hardwired zero)
+   10160:	853e                	mv	a0,a5			# Move a5 in a0 (return value = 0)
    10162:	4472                	lw	s0,28(sp)		# Load [sp+28] in s0
    10164:	6105                	addi	sp,sp,32	# De-allocate space. sp=sp+32
    10166:	8082                	ret
