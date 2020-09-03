@@ -106,8 +106,3 @@ The following tables list the RISC-V RV32IM and RV64IM instructions.
 | `DIVUW rd,rs1,rs2` | Divide Unsigned Word    | rd ← u32(rs1) ÷ u32(rs2)   |
 | `REMW rd,rs1,rs2`  | Remainder Signed Word   | rd ← s32(rs1) mod s32(rs2) |
 | `REMUW rd,rs1,rs2` | Remainder Unsigned Word | rd ← u32(rs1) mod u32(rs2) |
-
-### References
-
-- [RISC-V Foundation](http://riscv.org/)
-- [RISC-V ISA Specification](http://riscv.org/specifications/)

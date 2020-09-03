@@ -39,6 +39,6 @@ Assembly code:
 
 ## References
 
-- [Specs](https://github.com/riscv/riscv-isa-manual/releases/tag/draft-20200825-bb55379)
-- [Cheatsheet](../../riscv_cheatsheet.md)
+- [Specs](https://github.com/riscv/riscv-isa-manual/releases)
+- [Cheatsheet](../../../docs/riscv_cheatsheet.md)
 - [Assembly programmer manual](https://github.com/riscv/riscv-asm-manual/blob/master/riscv-asm.md)
