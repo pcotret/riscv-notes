@@ -10,4 +10,17 @@
 [submodule "docs/educational-materials"]
 	path = docs/educational-materials
 	url = https://github.com/pcotret/educational-materials
+[submodule "docs/riscv-debug-spec"]
+	path = docs/riscv-debug-spec
+	url = https://github.com/riscv/riscv-debug-spec
+[submodule "docs/riscv-trace-spec"]
+	path = docs/riscv-trace-spec
+	url = https://github.com/riscv/riscv-trace-spec
+[submodule "docs/riscv-crypto"]
+	path = docs/riscv-crypto
+	url = https://github.com/riscv/riscv-crypto
+
+
+
+
 
