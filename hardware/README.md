@@ -8,6 +8,9 @@
 - https://github.com/hamsternz/Rudi-RV32I
 - https://github.com/skordal/potato
 
+## Other implementations
+- https://github.com/openhwgroup/cva6. SystemVerilog.
+
 Both implementations have a rather clean software stack: memory mapping, linker script, etc.
 
 ## Other references
