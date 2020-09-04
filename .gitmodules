@@ -19,8 +19,3 @@
 [submodule "docs/riscv-crypto"]
 	path = docs/riscv-crypto
 	url = https://github.com/riscv/riscv-crypto
-
-
-
-
-
