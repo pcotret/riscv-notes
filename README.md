@@ -35,3 +35,5 @@ From the default repository (https://github.com/riscv/riscv-tools), you may enco
 - `riscv-tests`: Similar behavior in [riscv-tests/env/v/vm.c file](https://github.com/riscv/riscv-test-env/blob/43d3d53809085e2c8f030d72eed1bdf798bfb31a/v/vm.c#L175)
   - Create `flush_icache.h` (see `riscv-pk` commit)
   - Replace `clear_cache` function by `__riscv_flush_icache`
+  - Do not forget to add `riscv-pk/machine/flush_icache.c` in `riscv-tests/env/v/flush_icache.c`. This ASM instruction didn't exist in the old `riscv-tests` submodule. 
+- There's another issue with `riscv-tests` which can be easily fixed by adding a flag in a Makefile: https://github.com/riscv/riscv-tests/issues/286#issuecomment-801002149
