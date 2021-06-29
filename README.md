@@ -37,3 +37,8 @@ From the default repository (https://github.com/riscv/riscv-tools), you may enco
   - Replace `clear_cache` function by `__riscv_flush_icache`
   - Do not forget to add `riscv-pk/machine/flush_icache.c` in `riscv-tests/env/v/flush_icache.c`. This ASM instruction didn't exist in the old `riscv-tests` submodule. 
 - There's another issue with `riscv-tests` which can be easily fixed by adding a flag in a Makefile: https://github.com/riscv/riscv-tests/issues/286#issuecomment-801002149
+You should get the following message in the end:
+```
+Installing project riscv-tests
+RISC-V Toolchain installation completed!
+```
