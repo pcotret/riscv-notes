@@ -29,3 +29,9 @@
 | `f18-27`  | `fs2-11` | FP saved registers                | Callee |
 | `f28-31`  | `ft8-11` | FP temporaries                    | Caller |
 
+## Install `riscv-tools`
+From the default repository (https://github.com/riscv/riscv-tools), you may encounter errors with a recent GCC while compiling:
+- `riscv-pk`: https://github.com/riscv/riscv-pk/pull/240/commits/6c2909fd2ff9fd4925e0e9ce47a9a392aa190e4a
+- `riscv-tests`: Similar behavior in [riscv-tests/env/v/vm.c file](https://github.com/riscv/riscv-test-env/blob/43d3d53809085e2c8f030d72eed1bdf798bfb31a/v/vm.c#L175)
+  - Create `flush_icache.h` (see `riscv-pk` commit)
+  - Replace `clear_cache` function by `__riscv_flush_icache`
