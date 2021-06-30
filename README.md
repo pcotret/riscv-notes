@@ -29,6 +29,9 @@
 | `f18-27`  | `fs2-11` | FP saved registers                | Callee |
 | `f28-31`  | `ft8-11` | FP temporaries                    | Caller |
 
+## RISC-V model in Python
+https://pypi.org/project/riscv-model/
+
 ## Install `riscv-tools`
 From the default repository (https://github.com/riscv/riscv-tools), you may encounter errors with a recent GCC while compiling:
 - `riscv-pk`: https://github.com/riscv/riscv-pk/pull/240/commits/6c2909fd2ff9fd4925e0e9ce47a9a392aa190e4a
